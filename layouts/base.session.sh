@@ -8,10 +8,11 @@ if initialize_session "base"; then
   # Load a defined window layout.
     load_window "man"
     load_window "emacs"
+    load_window "hs-projects"
+    load_window "dotfiles"
+    load_window "edit-tmuxifier"
     load_window "automine-dev"
     load_window "automine-cfg"
-    load_window "dotfiles"
-    load_window "hs-projects"
 
   # Select the default active window on session creation.
   select_window 1
