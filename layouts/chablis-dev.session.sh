@@ -6,13 +6,19 @@
 if initialize_session "chablis-dev"; then
 
   # Load a defined window layout.
-    load_window "chablis-ionic"
-    load_window "chablis-frontend"
+    load_window "chablis-dashapp"
+    load_window "chablis-dashapp"
     load_window "emacs"
     load_window "chablis-frontend"
+    load_window "chablis-frontend"
+    load_window "chablis-libs"
+    load_window "chablis-libs"
+    load_window "prospector-frontend"
+    load_window "prospector-frontend"
+
 
   # Select the default active window on session creation.
-  select_window 2
+  select_window 3
 
 fi
 
