@@ -10,12 +10,11 @@ if initialize_session "chablis-dev"; then
     load_window "chablis-dashapp"
     load_window "emacs"
     load_window "chablis-frontend"
-    load_window "chablis-frontend"
+    load_window "chablis-frontend-nix"
     load_window "chablis-libs"
-    load_window "chablis-libs"
+    load_window "chablis-libs-nix"
     load_window "prospector-frontend"
-    load_window "prospector-frontend"
-
+    load_window "prospector-frontend-nix"
 
   # Select the default active window on session creation.
   select_window 3
