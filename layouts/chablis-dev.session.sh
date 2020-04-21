@@ -6,7 +6,7 @@
 if initialize_session "chablis-dev"; then
 
   # Load a defined window layout.
-    load_window "chablis-dashapp"
+    load_window "chablis-dashapp-test"
     load_window "chablis-dashapp"
     load_window "emacs"
     load_window "chablis-frontend"
